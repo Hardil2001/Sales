@@ -1,1 +1,14 @@
-# Sales
+This issue will contain the document of the overall implementation plan for the sales.
+- [ ] Create Models
+    - Create Query Models
+        - [ ] Category_FetchCategoryBy
+        - [ ] Item_FetchItemBy
+        - [ ] Coupon_FetchCouponBy
+    - Create CommandModels
+        - [ ] SalesTRX
+        - [ ] SalesDetailsTRX
+        - [ ] SaleRefundTRX
+        - [ ] SaleRefundDetailsTRX
+- [ ] Create Transactional Services Methods
+    - [ ] Add Sales
+    - [ ] Return Sales
